@@ -1,0 +1,189 @@
+
+
+#container{
+    height: 350px;
+    width: 450px;
+    color: rgb(44, 0, 0);
+    margin-top: 20px;
+    border: 2px solid rgb(0, 0, 0); 
+    
+}
+
+label{
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(251, 219, 5);
+
+}
+
+#card-body{
+    justify-content:flex-end;
+    margin-top: 60px;
+}
+
+
+/* div donde muestra el pokemon*/
+
+#cont-ret{
+    height: 600px;
+    width: 450px;
+    background-color: red;
+    border: 2px solid rgb(0, 0, 0); 
+}
+
+
+/* circulos esteticos*/
+
+#circulos {
+    display: flex;
+    justify-content:left;
+    margin-top: 10px;
+}
+#circulo1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 238, 255);
+    margin: 15px;
+    border: 2px solid rgb(0, 0, 0); 
+  }
+  #circulo2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(70, 163, 244);
+    margin: 9px;
+    border: 2px solid rgb(0, 0, 0); 
+  }
+  #circulo3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 247, 0);
+    margin:9px;
+    border: 2px solid rgb(0, 0, 0); 
+  }
+  #circulo4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(30, 255, 0);
+    margin:9px;
+    border: 2px solid rgb(0, 0, 0); 
+  }
+
+  #num-typo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  #numero{
+    margin: 4px;
+  background-color: rgb(194, 255, 194);
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0); 
+  }
+  #tipo{
+    margin: 4px;
+  background-color: rgb(149, 212, 254);
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0); 
+  }
+
+
+
+#card-ret{
+    height: 350px;
+    width: 450px;
+}
+
+
+
+#img-ret{
+    height: 250px;
+    width: 270px;
+    border: 12px solid rgb(63, 62, 62); 
+    background-color: aliceblue;
+    
+}
+
+/* div delos estats */
+
+
+#state{
+  display: flex;
+  justify-content:center;
+  margin-top: 5px;
+}
+#hp{
+  margin: 4px;
+  background-color: rgb(6, 255, 6);
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0); 
+}
+#attack{
+  margin: 4px;
+  background-color: rgb(89, 170, 251);
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0); 
+}
+#defense{
+  margin: 4px;
+  background-color: rgb(243, 142, 124);
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0); 
+}
+
+
+#ovalos{
+    display: flex;
+    justify-content:center;
+    margin-top: 5px;
+}
+
+#ovalo1 {
+    width: 80px;
+    height: 20px;
+    border-radius: 25%;
+    background-color: rgb(0, 255, 0); 
+    margin: 7px;
+    border: 2px solid rgb(0, 0, 0); 
+  }
+  #ovalo2 {
+    width: 80px;
+    height: 20px;
+    border-radius: 25%;
+    background-color: rgb(255, 225, 0); 
+    margin:7px;
+    border: 2px solid rgb(0, 0, 0); 
+  }
+
+
+  /* div del nombre y del boton*/
+
+#nombre-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #nombre-ret {
+    margin-right: 10px;
+    background-color: orange;
+    border-radius: 10%;
+    width: 120px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0); 
+    font-weight: bold;
+  }
+
+  #boton-ret {
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: tomato;
+    color: rgb(249, 228, 201);
+    
+  }

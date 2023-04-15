@@ -1,0 +1,47 @@
+#name{
+    border: 2px solid rgb(0, 0, 0); 
+    font-weight: bold;
+    background-color: rgb(0, 177, 97);
+}
+
+#n-type{
+    display: flex;
+    justify-content:left;
+    margin-top: 10px;
+}
+#n{
+    background-color: rgb(93, 239, 93);
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0); 
+    font-weight: bold;
+}
+#type{
+    background-color: rgb(0, 136, 234);
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0); 
+    font-weight: bold;
+}
+#hp{
+
+}
+#atake{
+    background-color: rgb(32, 206, 245);
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0); 
+    font-weight: bold;
+}
+#defensa{
+    background-color: rgb(232, 92, 92);
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0); 
+    font-weight: bold;
+}
+
+img{
+    height:205px ;
+    width: 250px;
+}
+
+#card{
+    background-color: red;
+}
